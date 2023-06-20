@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
- *print_alphabet - Prints the alphabet in lowercase.
- *
+ *print_alphabet - prints the alphabet in lowercase
  *Return: 0
  */
 void print_alphabet(void)
@@ -14,7 +12,5 @@ void print_alphabet(void)
 		_putchar(c);
 		c++;
 	}
-
-	_putchar('\n')
+	_putchar('\n');
 }
-
